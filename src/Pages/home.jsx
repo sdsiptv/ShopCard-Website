@@ -35,7 +35,7 @@ function Home() {
                 setDashboardData(data.data);
                 console.log('Shop Name:', data.data);
             } catch (err) {
-                setError('Failed to fetch dashboard data');
+                setError('Failed to fetch Ids');
             }
         };
         fetchData(); 
