@@ -38,7 +38,7 @@ function Home() {
                 setError('Failed to fetch dashboard data');
             }
         };
-        fetchData();
+        fetchData(); 
     }, [id]);
 
     const formatTime = (hour, minute) => {
