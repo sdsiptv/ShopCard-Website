@@ -1,0 +1,218 @@
+.footer-container {
+    background: url('../../Assests/Footimg.png') no-repeat center center/cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.footer-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.footer-overlay h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+.footer-button {
+    background-color: #FF5733;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer-button:hover {
+    background-color: #C70039;
+}
+
+/* ------Social Media------ */
+
+.footer-container-Social {
+    background-color: #FEEFD0;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.social-links {
+    display: flex;
+    gap: 40px;
+    background-color: white;
+    width: 80%;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding: inherit;
+    flex-wrap: wrap;
+}
+
+.social-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 80px;
+}
+
+.social-item img {
+    width: 100px;
+    height: 100px;
+}
+
+.social-item span {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #F78A0E;
+}
+
+
+/* APP DOWNLOAD */
+.CardBackground {
+    /* background: linear-gradient(#FFAE00, #FF8A00); */
+    background: linear-gradient(to right, #FFAE00, #FF8A00);
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+.promo-section img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+}
+
+.promo-section img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.store-badge {
+    cursor: pointer;
+}
+
+.store-badge:hover {
+    filter: brightness(1.2);
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+}
+
+.Logo {
+    width: 300px;
+}
+
+@media (max-width: 768px) {
+    .promo-section {
+        padding: 20px;
+        border-radius: 20px;
+        margin-top: 5px;
+    }
+
+    .promo-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .promo-buttons a {
+        margin-bottom: 15px;
+    }
+
+    .promo-section img {
+        max-width: 80%;
+        margin: 10px auto;
+    }
+
+    .img-fluid {
+        display: none;
+    }
+
+    .Logo {
+        width: 150px;
+    }
+    .store-badge {
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 576px) {
+    .promo-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .promo-buttons img {
+        max-width: 180px;
+    }
+
+    .store-badgeAppStore{
+        margin-right: 15px;
+    }
+    .promo-section p {
+        font-size: 14px;
+    }
+}
+
+
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .social-links {
+        gap: 20px;
+        width: 100%;
+    }
+
+    .social-item {
+        width: 60px;
+    }
+
+    .social-item img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .social-item span {
+        font-size: 14px;
+    }
+
+    .Logo {
+        width: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-container-Social {
+        padding: 10px;
+    }
+
+    .social-links {
+        gap: 10px;
+    }
+
+    .social-item {
+        width: 50px;
+    }
+
+    .social-item img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .social-item span {
+        font-size: 12px;
+        display: none;
+    }
+
+    .Logo {
+        width: 150px;
+    }
+}

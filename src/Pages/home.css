@@ -1,0 +1,392 @@
+.container-fluid {
+    padding: 0 15px;
+}
+
+.navbar {
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+.nav1 {
+    width: 100%;
+    height: 45px;
+}
+
+.infoimg {
+    width: 30px;
+    height: 30px;
+}
+
+.map {
+    margin-left: 10px;
+    width: 14px;
+    height: 17px;
+    margin-top: -5px;
+}
+
+.content {
+    display: flex;
+    gap: 8px;
+    height: 45px;
+    align-items: center;
+}
+
+.dealer {
+    font-size: larger;
+    font-weight: 500;
+}
+
+.Address {
+    font-size: small;
+    font-weight: 500;
+    margin-left: 8px;
+}
+
+.header {
+    background-color: #FFB800;
+}
+
+.Logo {
+    width: 17%;
+}
+
+.ShopName {
+    font-size: xx-large;
+    font-weight: 800;
+    margin-left: 6%;
+}
+
+.OpenTime,
+.price,
+.contact {
+    font-size: larger;
+    font-weight: 500;
+    outline: none;
+    background-color: #434343;
+    color: #FFB800;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.shopimage {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .col-1,
+    .col-6,
+    .col-5,
+    .col-3,
+    .col-4 {
+        width: 100%;
+        padding: 0;
+    }
+
+    .ShopName {
+        font-size: large;
+    }
+
+    .Logo {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin: 0 auto;
+        display: block;
+    }
+
+    /* .Logo {
+        width: 50%;
+    } */
+
+    .OpenTime,
+    .price,
+    .contact {
+        font-size: medium;
+        width: 90%;
+    }
+}
+
+@media (max-width: 576px) {
+    .ShopName {
+        font-size: xx-large;
+    }
+
+    .Logo {
+        width: 150px;
+        height: 150px;
+    }
+
+    .OpenTime,
+    .price,
+    .contact {
+        font-size: small;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .Address {
+        display: none;
+    }
+
+    .Rank {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFD500;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.logo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    background-color: #3B2E2E;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 340px;
+}
+
+.logo .logo-text {
+    font-size: 24px;
+}
+
+.logo .tagline {
+    font-size: 14px;
+}
+
+.info-section {
+    flex: 1;
+}
+
+.info-section h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.info-section p {
+    font-size: 16px;
+    color: #555;
+}
+
+.details {
+    margin-top: 10px;
+}
+
+.details div {
+    background-color: #3B2E2E;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.details span {
+    font-weight: bold;
+}
+
+/* .image-section img {
+    height: 150px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  } */
+
+
+
+
+
+
+
+
+
+/* .rk-food-shop {
+    background: linear-gradient(to bottom, #ffdb4d, #ffcc00);
+    background-color: #FFB800;
+    padding: 2rem;
+    border-radius: 10px;
+    color: #333;
+}
+
+.logo img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    background-color: #d5f5e3;
+    padding: 0.2rem;
+}
+
+.shop-title {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #000;
+}
+
+.shop-subtitle {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.info-boxes .info-box {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.AppLogo {
+    width: 50%;
+    margin-top: 130px;
+    margin-left: 90px;
+    background-color: #aab7b8;
+    padding: 0.2rem;
+    border-radius: 5px;
+} */
+
+
+.rk-food-shop {
+    background-color: #FFB800;
+    padding: 2rem;
+    border-radius: 10px;
+    color: #333;
+    padding-bottom: 0px;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    background-color: #d5f5e3;
+    padding: 0.2rem;
+    border-radius: 50%;
+}
+
+.shop-title {
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #000;
+    margin-bottom: 0.5rem;
+}
+
+.shop-subtitle {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.info-boxes .info-box {
+    background-color: #333;
+    color: #fff;
+    padding: 12px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.AppLogo {
+    width: 80%;
+    max-width: 110px;
+    background-color: #d5f5e3;
+    padding: 0.1rem;
+    border-radius: 18px;
+}
+
+@media (max-width: 768px) {
+    .rk-food-shop {
+        padding: 1.5rem;
+    }
+
+    .logo img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .shop-title {
+        font-size: 1.5rem;
+    }
+
+    .shop-subtitle {
+        font-size: 0.9rem;
+    }
+
+    .info-boxes .info-box {
+        font-size: 0.8rem;
+    }
+
+    .AppLogo {
+        width: 60%;
+        margin: 20px auto;
+    }
+
+    .logo {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col-lg-5,
+    .col-md-6,
+    .col-lg-2,
+    .col-md-3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .AppLogo {
+        margin: 20px auto;
+    }
+
+    .info-boxes {
+        margin-top: 1rem;
+    }
+}

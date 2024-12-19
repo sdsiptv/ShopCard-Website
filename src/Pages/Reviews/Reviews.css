@@ -1,0 +1,120 @@
+.ShopReview {
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: #4a4a4a;
+    font-family: 'Roboto', sans-serif;
+}
+
+.review-card {
+    border: 1px solid #e6e6e6;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(145deg, #ffffff, #f3f3f3);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+    width: 350px;
+    height: 190px;
+}
+
+.review-card:hover {
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+.review-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 15px;
+}
+
+.review-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #bb8fce;
+}
+
+.placeholder-avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 3px solid #bb8fce;
+}
+
+.review-details h2 {
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* .review-stars {
+    display: flex;
+    margin-top: 5px;
+}
+
+.star {
+    color: #ffcc00;
+    font-size: 1.3rem;
+} */
+
+.review-stars {
+    display: flex;
+    gap: 4px;
+}
+
+.star {
+    font-size: 28px;
+    color: #FFD700; 
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); 
+    transition: transform 0.2s ease;
+}
+
+.star:hover {
+    transform: scale(1.2); 
+    color: #FFA500;
+}
+
+
+.review-content p {
+    margin: 0;
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+
+    .row::-webkit-scrollbar {
+        height: 8px; 
+    }
+
+    .row::-webkit-scrollbar-thumb {
+        background: #bb8fce; 
+        border-radius: 10px;
+    }
+
+    .review-card {
+        flex: 0 0 auto; 
+        width: 90%; 
+        max-width: 350px; 
+        margin: 0 auto;
+    }
+}
