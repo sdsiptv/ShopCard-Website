@@ -110,8 +110,8 @@ const ShopDetails = () => {
                             ))
                         ) : (
                             <div style={{ textAlign: "center", padding: "20px", color: "#e74c3c" }}>
-                            <h3>No Images Uploaded</h3>
-                          </div>
+                                <h3>No Images Uploaded</h3>
+                            </div>
                         )}
                     </div>
 
@@ -210,6 +210,10 @@ const ShopDetails = () => {
                     </div>
                 </div>
             )}
+
+            <div>
+                {error && <div className="error">{error}</div>}
+            </div>
         </>
     );
 };
